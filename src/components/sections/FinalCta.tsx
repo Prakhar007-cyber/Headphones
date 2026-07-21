@@ -61,7 +61,7 @@ export default function FinalCta() {
 
           <h2
             aria-label="Turn up your world"
-            className="display-type relative w-full text-center text-[clamp(3.4rem,11vw,11rem)] leading-[0.92] text-bone"
+            className="display-type relative w-full text-center text-[clamp(2.8rem,11vw,11rem)] leading-[0.92] text-bone"
           >
             <span data-fin-line className="relative z-[5] block overflow-hidden">
               <span className="block">TURN UP</span>

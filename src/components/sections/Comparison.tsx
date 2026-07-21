@@ -66,7 +66,7 @@ export default function Comparison() {
     <section ref={scope} className="relative bg-graphite">
       <div className="mx-auto max-w-[1560px] px-5 py-28 md:px-10 md:py-40">
         <div className="flex flex-wrap items-end justify-between gap-6">
-          <h2 className="display-type text-[clamp(2.7rem,6vw,6rem)] text-bone">
+          <h2 className="display-type text-[clamp(2.4rem,6vw,6rem)] text-bone">
             PICK YOUR
             <br />
             <span className="text-ember">POISON.</span>

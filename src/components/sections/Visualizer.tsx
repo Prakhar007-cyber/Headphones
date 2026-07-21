@@ -216,7 +216,7 @@ export default function Visualizer() {
     <section ref={scope} className="relative overflow-hidden bg-void">
       <div className="mx-auto max-w-[1560px] px-5 py-28 md:px-10 md:py-40">
         <div className="flex flex-wrap items-end justify-between gap-6">
-          <h2 data-vz-head className="display-type text-[clamp(2.9rem,6.5vw,6.5rem)] text-bone">
+          <h2 data-vz-head className="display-type text-[clamp(2.1rem,6.5vw,6.5rem)] text-bone">
             <span className="block overflow-hidden">
               <span className="block">MEASURED.</span>
             </span>
@@ -248,9 +248,9 @@ export default function Visualizer() {
             <div
               key={s.label}
               data-vz-stat
-              className="group border-b border-r border-line p-6 transition-colors duration-500 hover:bg-carbon/60 md:p-9"
+              className="group border-b border-r border-line p-5 transition-colors duration-500 hover:bg-carbon/60 sm:p-6 md:p-9"
             >
-              <div className="font-mono text-2xl text-bone md:text-4xl">{s.value}</div>
+              <div className="font-mono text-xl text-bone sm:text-2xl md:text-4xl">{s.value}</div>
               <div className="eyebrow mt-3 text-smoke transition-colors duration-500 group-hover:text-ember">
                 {s.label}
               </div>

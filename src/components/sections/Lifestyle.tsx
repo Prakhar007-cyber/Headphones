@@ -74,7 +74,7 @@ export default function Lifestyle() {
 
         {/* Overlay typography */}
         <div className="pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-center px-5">
-          <h2 className="display-type text-center text-[clamp(3rem,9.5vw,9.5rem)] leading-[0.95] text-bone">
+          <h2 className="display-type text-center text-[clamp(2.5rem,9.5vw,9.5rem)] leading-[0.95] text-bone">
             <span data-ls-line="0" className="block">
               YOUR WORLD.
             </span>

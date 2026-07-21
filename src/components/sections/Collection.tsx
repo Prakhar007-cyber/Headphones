@@ -82,7 +82,7 @@ export default function Collection() {
     <section ref={scope} id="collection" className="relative bg-graphite">
       <div className="mx-auto max-w-[1560px] px-5 py-28 md:px-10 md:py-40">
         <div className="flex flex-wrap items-end justify-between gap-6">
-          <h2 data-col-head className="display-type text-[clamp(2.9rem,7vw,7rem)] text-bone">
+          <h2 data-col-head className="display-type text-[clamp(2.4rem,7vw,7rem)] text-bone">
             <span className="block overflow-hidden">
               <span className="block">THE</span>
             </span>

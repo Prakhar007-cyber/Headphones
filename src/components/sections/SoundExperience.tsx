@@ -116,7 +116,7 @@ export default function SoundExperience() {
             <div className="eyebrow mb-8 text-void/50">THE SOUND EXPERIENCE</div>
             <h2
               data-se-headline
-              className="display-type text-[clamp(2.9rem,7.5vw,7.5rem)] text-void"
+              className="display-type text-[clamp(2.35rem,7.5vw,7.5rem)] text-void"
             >
               {LINES.map((line, i) => (
                 <span key={line} data-se-line={i} className="block overflow-hidden">
@@ -134,7 +134,7 @@ export default function SoundExperience() {
               Most headphones play music. AURIC reconstructs it — every layer placed exactly where
               the artist left it. Voices in front of you. Strings behind. Air everywhere else.
             </p>
-            <div data-se-copy className="flex gap-10 border-t border-void/15 pt-6">
+            <div data-se-copy className="flex flex-wrap gap-x-8 gap-y-5 border-t border-void/15 pt-6 md:gap-10">
               <div>
                 <div className="font-mono text-2xl">20Hz</div>
                 <div className="eyebrow mt-1 text-void/50">LOW REACH</div>

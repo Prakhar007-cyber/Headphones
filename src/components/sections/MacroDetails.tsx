@@ -86,7 +86,7 @@ export default function MacroDetails() {
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-6">
             <div className="eyebrow mb-8 text-void/50">MATERIALS &amp; COMFORT</div>
-            <h2 data-mac-head className="display-type text-[clamp(3rem,8vw,8rem)] text-void">
+            <h2 data-mac-head className="display-type text-[clamp(2.5rem,8vw,8rem)] text-void">
               <span className="block overflow-hidden">
                 <span className="block">BUILT</span>
               </span>

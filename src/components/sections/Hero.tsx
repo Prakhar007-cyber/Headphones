@@ -88,7 +88,7 @@ export default function Hero() {
           {/* Headline — line one sits behind the headphone, line two in front */}
           <h1
             aria-label="Feel every frequency"
-            className="display-type text-[clamp(3.2rem,11.5vw,11.5rem)] leading-[0.9] text-bone lg:absolute lg:left-0 lg:top-[24%] lg:w-full"
+            className="display-type text-[clamp(2.7rem,11.5vw,11.5rem)] leading-[0.9] text-bone lg:absolute lg:left-0 lg:top-[24%] lg:w-full"
           >
             <span className="relative z-[5] block">
               <SplitText {...headlineSplit} text="FEEL EVERY" className="align-top" />
