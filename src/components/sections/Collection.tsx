@@ -92,7 +92,7 @@ export default function Collection() {
               </span>
             </span>
           </h2>
-          <p className="eyebrow max-w-[220px] pb-4 text-smoke">
+          <p className="eyebrow max-w-55 pb-4 text-smoke">
             FOUR INSTRUMENTS. ONE OBSESSION WITH SOUND.
           </p>
         </div>
@@ -118,13 +118,13 @@ export default function Collection() {
                   style={{ clipPath: "inset(0% 0% 0% 0%)" }}
                   aria-label={`View ${p.name}`}
                 >
-                  <div className={`relative ${flip ? "aspect-[4/3.4]" : "aspect-[16/11]"} w-full`}>
+                  <div className={`relative ${flip ? "aspect-[4/3.4]" : "aspect-16/11"} w-full`}>
                     <Image
                       src={p.img}
                       alt={p.alt}
                       fill
                       sizes="(max-width: 1024px) 100vw, 55vw"
-                      className="object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.06]"
+                      className="object-cover transition-transform duration-1200 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.06]"
                     />
                   </div>
                   <div className="display-type pointer-events-none absolute bottom-4 right-5 text-[clamp(3rem,6vw,6rem)] text-bone/90 mix-blend-difference">
