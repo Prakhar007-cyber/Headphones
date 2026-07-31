@@ -42,7 +42,7 @@ export default function FinalCta() {
   return (
     <section
       ref={scope}
-      className="relative flex min-h-[100svh] flex-col items-center justify-center overflow-hidden bg-void"
+      className="relative flex min-h-svh flex-col items-center justify-center overflow-hidden bg-void"
     >
       {/* Ambient ember glow */}
       <div
@@ -53,7 +53,7 @@ export default function FinalCta() {
       <div className="relative z-10 flex w-full flex-col items-center px-5 py-28">
         <div className="relative w-full">
           {/* 3D headphone floats between the two headline lines */}
-          <div className="pointer-events-auto absolute left-1/2 top-1/2 z-[10] h-[54vh] w-[86vw] -translate-x-1/2 -translate-y-1/2 md:h-[64vh] md:w-[54vw]">
+          <div className="pointer-events-auto absolute left-1/2 top-1/2 z-10 h-[54vh] w-[86vw] -translate-x-1/2 -translate-y-1/2 md:h-[64vh] md:w-[54vw]">
             <div data-fin-canvas className="h-full w-full">
               <HeadphoneScene variant="finale" draggable className="h-full w-full" />
             </div>
@@ -63,10 +63,10 @@ export default function FinalCta() {
             aria-label="Turn up your world"
             className="display-type relative w-full text-center text-[clamp(2.8rem,11vw,11rem)] leading-[0.92] text-bone"
           >
-            <span data-fin-line className="relative z-[5] block overflow-hidden">
+            <span data-fin-line className="relative z-5 block overflow-hidden">
               <span className="block">TURN UP</span>
             </span>
-            <span data-fin-line className="pointer-events-none relative z-[20] block overflow-hidden">
+            <span data-fin-line className="pointer-events-none relative z-20 block overflow-hidden">
               <span className="block">
                 YOUR <span className="text-ember">WORLD.</span>
               </span>
@@ -74,11 +74,11 @@ export default function FinalCta() {
           </h2>
         </div>
 
-        <div data-fin-cta className="relative z-[30] mt-14 md:mt-20">
+        <div data-fin-cta className="relative z-30 mt-14 md:mt-20">
           <Magnet padding={90} magnetStrength={7}>
             <a
               href="#collection"
-              className="group inline-flex items-center gap-4 rounded-full border border-bone/30 bg-bone/[0.03] px-10 py-5 text-sm font-semibold tracking-[0.15em] text-bone backdrop-blur-sm transition-all duration-500 hover:border-ember hover:bg-ember hover:text-void"
+              className="group inline-flex items-center gap-4 rounded-full border border-bone/30 bg-bone/3 px-10 py-5 text-sm font-semibold tracking-[0.15em] text-bone backdrop-blur-sm transition-all duration-500 hover:border-ember hover:bg-ember hover:text-void"
             >
               EXPLORE HEADPHONES
               <span aria-hidden className="transition-transform duration-500 group-hover:translate-x-1.5">
