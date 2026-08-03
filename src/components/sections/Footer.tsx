@@ -134,7 +134,7 @@ export default function Footer() {
         <div className="mt-20 overflow-hidden md:mt-28">
           <div
             data-ft-brand
-            className="display-type select-none text-center text-[clamp(5rem,19vw,19rem)] leading-[0.8] text-transparent transition-colors duration-700 hover:text-bone/[0.06]"
+            className="display-type select-none text-center text-[clamp(5rem,19vw,19rem)] leading-[0.8] text-transparent transition-colors duration-700 hover:text-bone/6"
             style={{ WebkitTextStroke: "1px #2a2d33" }}
             aria-hidden
           >

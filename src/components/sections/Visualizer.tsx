@@ -226,13 +226,13 @@ export default function Visualizer() {
               </span>
             </span>
           </h2>
-          <p className="eyebrow max-w-[240px] pb-3 text-smoke">
+          <p className="eyebrow max-w-60 pb-3 text-smoke">
             EVERY UNIT IS SWEPT, PLOTTED AND TUNED BEFORE IT SHIPS.
           </p>
         </div>
 
         {/* Waveform */}
-        <div className="relative mt-16 h-[240px] md:mt-20 md:h-[320px]">
+        <div className="relative mt-16 h-60 md:mt-20 md:h-80">
           <canvas ref={canvasRef} className="h-full w-full" aria-hidden />
           <div className="pointer-events-none absolute left-0 top-0 font-mono text-[10px] tracking-[0.25em] text-smoke">
             FREQUENCY SWEEP — UNIT NO. 0148

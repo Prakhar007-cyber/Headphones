@@ -57,7 +57,7 @@ export default function Lifestyle() {
 
   return (
     <section ref={scope} className="relative bg-void">
-      <div className="relative h-[100svh] overflow-hidden">
+      <div className="relative h-svh overflow-hidden">
         {/* Expanding frame */}
         <div data-ls-frame className="absolute inset-0" style={{ clipPath: "inset(26% 31% 26% 31%)" }}>
           <div data-ls-img className="absolute inset-0">
@@ -69,7 +69,7 @@ export default function Lifestyle() {
               className="object-cover object-[62%_30%]"
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-void/60 via-transparent to-void/20" />
+          <div className="absolute inset-0 bg-linear-to-t from-void/60 via-transparent to-void/20" />
         </div>
 
         {/* Overlay typography */}

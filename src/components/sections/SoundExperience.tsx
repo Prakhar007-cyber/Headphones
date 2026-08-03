@@ -155,7 +155,7 @@ export default function SoundExperience() {
         <div className="mt-16 grid gap-6 md:mt-24 md:grid-cols-12 md:gap-8">
           <div
             data-se-image
-            className="relative aspect-[4/5] overflow-hidden md:col-span-7 md:aspect-[4/4.6] lg:col-span-8 lg:aspect-[16/10]"
+            className="relative aspect-4/5 overflow-hidden md:col-span-7 md:aspect-[4/4.6] lg:col-span-8 lg:aspect-16/10"
           >
             <Image
               src={IMG.editorialSuit}
@@ -166,7 +166,7 @@ export default function SoundExperience() {
             />
           </div>
           <div className="md:col-span-5 lg:col-span-4">
-            <div data-se-side className="relative mx-auto mt-6 aspect-[3/4] max-w-[340px] overflow-hidden md:mt-24">
+            <div data-se-side className="relative mx-auto mt-6 aspect-3/4 max-w-85 overflow-hidden md:mt-24">
               <Image
                 src={IMG.streetJoy}
                 alt="Young woman in a patterned sweater singing along in white headphones on a city street"

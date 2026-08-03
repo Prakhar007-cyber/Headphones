@@ -103,11 +103,11 @@ export default function ProductStory() {
 
   return (
     <section ref={scope} id="technology" className="relative overflow-hidden bg-void">
-      <div className="relative flex h-[100svh] flex-col lg:flex-row">
+      <div className="relative flex h-svh flex-col lg:flex-row">
         {/* Faint backdrop word */}
         <div
           aria-hidden
-          className="display-type pointer-events-none absolute left-1/2 top-6 z-0 -translate-x-1/2 whitespace-nowrap text-[13vw] text-bone/[0.03]"
+          className="display-type pointer-events-none absolute left-1/2 top-6 z-0 -translate-x-1/2 whitespace-nowrap text-[13vw] text-bone/3"
         >
           ENGINEERED
         </div>

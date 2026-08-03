@@ -66,7 +66,7 @@ export default function Hero() {
     <section
       ref={scope}
       id="top"
-      className="relative flex min-h-[100svh] flex-col overflow-hidden bg-void"
+      className="relative flex min-h-svh flex-col overflow-hidden bg-void"
     >
       {/* Aurora backdrop — heavily subdued so the product stays the focus */}
       <div
@@ -90,17 +90,17 @@ export default function Hero() {
             aria-label="Feel every frequency"
             className="display-type text-[clamp(2.7rem,11.5vw,11.5rem)] leading-[0.9] text-bone lg:absolute lg:left-0 lg:top-[24%] lg:w-full"
           >
-            <span className="relative z-[5] block">
+            <span className="relative z-5 block">
               <SplitText {...headlineSplit} text="FEEL EVERY" className="align-top" />
             </span>
-            <span className="pointer-events-none relative z-[30] block lg:mt-[-0.05em] lg:pl-[14vw]">
+            <span className="pointer-events-none relative z-30 block lg:mt-[-0.05em] lg:pl-[14vw]">
               <SplitText {...headlineSplit} text="FREQUENCY" className="align-top" />
               <span className="text-ember">.</span>
             </span>
           </h1>
 
           {/* 3D headphone — layered between the two headline lines on desktop */}
-          <div className="hero-canvas relative mx-auto mt-2 h-[42svh] w-full max-w-[480px] lg:absolute lg:right-[-4%] lg:top-[6vh] lg:z-[10] lg:m-0 lg:h-[82vh] lg:w-[52vw] lg:max-w-none">
+          <div className="hero-canvas relative mx-auto mt-2 h-[42svh] w-full max-w-120 lg:absolute lg:right-[-4%] lg:top-[6vh] lg:z-10 lg:m-0 lg:h-[82vh] lg:w-[52vw] lg:max-w-none">
             <HeadphoneScene
               variant="hero"
               draggable={isDesktop}
@@ -110,7 +110,7 @@ export default function Hero() {
         </div>
 
         {/* Bottom row */}
-        <div className="relative z-[35] flex flex-col gap-8 pb-14 md:pb-16 lg:flex-row lg:items-end lg:justify-between">
+        <div className="relative z-35 flex flex-col gap-8 pb-14 md:pb-16 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-md">
             <p data-hero-copy className="text-[15px] leading-relaxed text-steel">
               Reference-grade 40&nbsp;mm drivers. Adaptive silence. A soundstage engineered to
@@ -161,7 +161,7 @@ export default function Hero() {
       {/* Scroll cue */}
       <div
         data-hero-scroll
-        className="absolute bottom-5 left-1/2 z-[35] hidden -translate-x-1/2 flex-col items-center gap-2 lg:flex"
+        className="absolute bottom-5 left-1/2 z-35 hidden -translate-x-1/2 flex-col items-center gap-2 lg:flex"
       >
         <span className="eyebrow text-smoke">SCROLL</span>
         <span data-hero-scroll-line className="block h-10 w-px bg-steel/60" />

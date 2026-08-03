@@ -71,13 +71,13 @@ export default function Comparison() {
             <br />
             <span className="text-ember">POISON.</span>
           </h2>
-          <p className="eyebrow max-w-[230px] pb-3 text-smoke">
+          <p className="eyebrow max-w-57.5 pb-3 text-smoke">
             THREE TUNINGS. NO WRONG ANSWER.
           </p>
         </div>
 
         <div className="mt-16 overflow-x-auto pb-2 md:mt-24 md:overflow-visible">
-          <div className="min-w-[760px] md:min-w-0">
+          <div className="min-w-190 md:min-w-0">
             {/* Product header */}
             <div
               data-cmp-models
@@ -86,13 +86,13 @@ export default function Comparison() {
               <div />
               {MODELS.map((m) => (
                 <div key={m.name} data-cmp-model className="group">
-                  <div className="relative aspect-[5/4] overflow-hidden">
+                  <div className="relative aspect-5/4 overflow-hidden">
                     <Image
                       src={m.img}
                       alt={`${m.name} headphones product photo`}
                       fill
                       sizes="(max-width: 768px) 40vw, 26vw"
-                      className="object-cover transition-transform duration-[1100ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.05]"
+                      className="object-cover transition-transform duration-1100 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.05]"
                     />
                   </div>
                   <div className="eyebrow mt-4 text-smoke">{m.tag}</div>

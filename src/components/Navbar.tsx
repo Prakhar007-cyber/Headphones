@@ -36,7 +36,7 @@ export default function Navbar() {
           : "border-b border-transparent bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex h-16 max-w-[1560px] items-center justify-between px-5 md:h-[72px] md:px-10">
+      <nav className="mx-auto flex h-16 max-w-[1560px] items-center justify-between px-5 md:h-18 md:px-10">
         {/* Brand */}
         <a href="#top" className="display-type text-xl tracking-tight text-bone md:text-2xl">
           AURIC<span className="text-ember">.</span>
@@ -92,13 +92,13 @@ export default function Navbar() {
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="flex h-10 w-10 flex-col items-center justify-center gap-[5px] rounded-full text-bone lg:hidden"
+            className="flex h-10 w-10 flex-col items-center justify-center gap-1.25 rounded-full text-bone lg:hidden"
           >
             <span
-              className={`h-px w-5 bg-current transition-transform duration-300 ${open ? "translate-y-[3px] rotate-45" : ""}`}
+              className={`h-px w-5 bg-current transition-transform duration-300 ${open ? "translate-y-0.75 rotate-45" : ""}`}
             />
             <span
-              className={`h-px w-5 bg-current transition-transform duration-300 ${open ? "-translate-y-[3px] -rotate-45" : ""}`}
+              className={`h-px w-5 bg-current transition-transform duration-300 ${open ? "-translate-y-0.75 -rotate-45" : ""}`}
             />
           </button>
         </div>
